@@ -1,0 +1,506 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8f5353;
+}  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #090242;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    
+}
+.project-title{
+    text-decoration: underline;
+    cursor: pointer;
+}
+h2{
+    color: rgb(5, 5, 100);
+    padding-bottom: 20px;
+    text-decoration: underline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+.profile-img{
+    margin-top: 0px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: none;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+.About-para{
+    margin-top: 20px;
+    line-height: 2;
+    font-size: 30pxpx;
+    width: 900px;
+    text-align: justify;
+    margin-left: 20px;
+}
+span{
+    font-weight: bold;
+    color: rgb(3, 3, 59);
+    cursor: pointer;
+    transition: opacity 2sec ;
+}
+span:hover{
+    text-decoration: underline;
+    color: red;
+    background-color: antiquewhite;
+    opacity: 0.5;
+}
+
+.date{
+    margin-left: 900px;
+    flex: 0 0 50px;
+    text-align: right;
+    
+}
+.Education-para{
+    flex: 1;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.list{
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 2;
+    cursor: pointer;
+
+}
+.list:hover{
+    text-decoration: underline;
+    color: #1d09b6;
+    width: 100px;
+    opacity: 0.7;
+    transition: opacity 2sec;
+}
+section {
+    background-color: rgb(226, 221, 211);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2 2 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.download-btn {
+    background-color: rgb(110, 39, 18);
+    font-weight: 900;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    box-shadow: 2px 2px 10px gray;
+}
+.download-btn:hover {
+    background-color: red;
+    opacity: 0.8;
+}
+.interests-section {
+ margin: 50px auto;
+}
+
+.interest {
+    margin-bottom: 10px;
+    
+}
+.project-container {
+    max-width: 800px;
+    
+
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #555;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #2980b9; 
+}
+.interest-para{
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 20px;
+    width: 900px;
+    text-align: justify;
+    margin-left: 20px;
+    
+}
+.phone-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #555;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.phone-icon:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.interest h3 {
+    color:  rgb(3, 3, 59);
+    margin-bottom: 2pxx;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.1px;
+}
+.interest h3:hover{
+    background-color: rgb(238, 204, 204);
+width: 200px;
+
+}
+
+.interest p {
+    color: #555;
+    line-height: 1.6;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+}
+label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #090242;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(31, 31, 100);
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-container {
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 20px;
+    width: 900px;
+    text-align: justify;
+    margin-left: 20px; 
+
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 20px;
+    color: #090242;
+    cursor: pointer;
+}
+.proj-h3{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #090242;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bank-analysis{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.proj-h3:hover{
+    background-color: #8f5353;
+    width: 200px;
+
+}
+.project{
+    margin-right: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #090242;
+    cursor: pointer;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    margin: 10px 0 10px 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.project-section {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.data-project{
+    background-color: azure;
+    font-weight: 900px;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    box-shadow: 2px 2px 10px gray;
+    margin-bottom: 30px;
+}
+/* General container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Make sure all paragraphs and text containers are flexible */
+p, .About-para, .Education-para, .interest-para, .project-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    line-height: 1.5;
+    word-wrap: break-word; /* Prevents text from overflowing */
+    font-size: 1rem; /* Responsive font size */
+}
+
+/* Profile image responsiveness */
+.profile-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Buttons should scale with screen size */
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(87, 80, 69, 0.192);
+    color:#090242;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.download-btn:hover {
+    background-color: #ff4500;
+    opacity: 0.8;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li {
+        margin-bottom: 10px;
+    }
+    .profile-img {
+        width: 80px; /* Adjust image size */
+    }
+    .About-para, .Education-para, .interest-para, .project-container {
+        font-size: 0.9rem; /* Slightly smaller text for better readability */
+    }
+    .download-btn {
+        font-size: 0.9rem; /* Button text adjustment */
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem; /* Even smaller on very small screens */
+    }
+    .About-para, .Education-para, .interest-para, .project-container {
+        font-size: 0.8rem;
+        padding: 10px; /* Reduced padding for small screens */
+    }
+    .profile-img {
+        width: 60px; /* Further adjust image size */
+    }
+    .download-btn {
+        font-size: 0.8rem; /* Button text adjustment */
+    }
+    .container {
+        padding: 10px; /* Reduced container padding */
+    }
+}
+
+/* Fix text cut-off issue */
+p, .About-para, .Education-para, .interest-para, .project-container {
+    height: auto; /* Ensure height adapts to content */
+    overflow-wrap: break-word; /* Break long words */
+    word-wrap: break-word;
+}
+
+/* General responsive adjustments for tiny screens */
+@media (max-width: 360px) {
+    h2 {
+        font-size: 1rem; /* Smaller for tiny screens */
+    }
+    .About-para, .Education-para, .interest-para, .project-container {
+        font-size: 0.7em;
+        padding: 10px; /* Minimal padding */
+        text-align: justify;
+    }
+    .profile-img {
+        width: 50px;
+    }
+    .download-btn {
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem; /* Further reduce heading size for small devices */
+    }
+    .profile-img {
+        width: 60px; /* Smaller profile image on mobile */
+    }
+    .About-para, .Education-para, .interest-para, .project-container {
+        font-size: 0.8rem; /* Smaller text for mobile screens */
+    }
+    .download-btn {
+        font-size: 0.8rem; /* Button text adjustment for smaller screens */
+        padding: 8px 16px; /* Smaller padding */
+    }
+    .interest, .project-container {
+        padding: 5px; /* Reduce padding */
+    }
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Show hamburger menu on smaller screens */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        background-color: #090242;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+    nav ul.active {
+        display: flex;
+    }
+}
+
+/* Additional styling for mobile buttons and social icons */
+.social-media {
+    margin-top: 15px;
+}
+
+.phone-icon, .social-icon {
+    font-size: 1.5rem;
+}
