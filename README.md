@@ -20,7 +20,8 @@ This portfolio is designed to highlight my professional achievements, personal p
 - **HTML5**: Structure of the website
 - **CSS3**: Styling and layout, including responsive design
 - **VSCode**: Code editor used during development
- **[August Cohort Hackathon Repository](https://github.com/MuriithiEric/August-Cohort-Hackathon-1)**: Reference repository that provided guidance during the project.
+
+s- **[August Cohort Hackathon Repository](https://github.com/MuriithiEric/August-Cohort-Hackathon-1)**: Reference repository that provided guidance during the project.
 
 ## Features
 
